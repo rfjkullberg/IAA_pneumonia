@@ -21,7 +21,7 @@ library(survminer)
 library(clusterProfiler)
 ```
 
-## Step 1 - Tryptophan metabolites are altered during severe pneumonia and correlate with mortality
+## Step 2 - Tryptophan metabolites are altered during severe pneumonia and correlate with mortality
 
 ```
 tryp <- tryp %>%
