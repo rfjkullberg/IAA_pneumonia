@@ -457,3 +457,85 @@ x2 <- enrichplot::pairwise_termsim(gse)
 gseaplotros <- enrichplot::gseaplot2(x2, geneSetID = 141, title = x2$Description[141], subplots = 1:3)
 gseaplotros <- ggplotify::as.ggplot(gseaplotros)
 ```
+
+
+## Session info
+```
+R version 4.2.3 (2023-03-15)
+Platform: aarch64-apple-darwin20 (64-bit)
+Running under: macOS Ventura 13.4
+
+Matrix products: default
+LAPACK: /Library/Frameworks/R.framework/Versions/4.2-arm64/Resources/lib/libRlapack.dylib
+
+locale:
+[1] en_US.UTF-8/en_US.UTF-8/en_US.UTF-8/C/en_US.UTF-8/en_US.UTF-8
+
+attached base packages:
+[1] stats4    grid      stats     graphics  grDevices utils     datasets  methods   base     
+
+other attached packages:
+ [1] ReactomePA_1.42.0     formulaic_0.0.8       reactome.db_1.82.0    AnnotationDbi_1.60.2 
+ [5] IRanges_2.32.0        S4Vectors_0.36.2      Biobase_2.58.0        BiocGenerics_0.44.0  
+ [9] clusterProfiler_4.6.2 survminer_0.4.9       ggpubr_0.6.0          survival_3.7-0       
+[13] data.table_1.15.4     ComplexHeatmap_2.14.0 circlize_0.4.16       reshape2_1.4.4       
+[17] readxl_1.4.3          rio_1.2.1             tableone_0.13.2       lubridate_1.9.3      
+[21] forcats_1.0.0         stringr_1.5.1         dplyr_1.1.4           purrr_1.0.2          
+[25] readr_2.1.5           tidyr_1.3.1           tibble_3.2.1          ggplot2_3.5.1        
+[29] tidyverse_2.0.0       phyloseq_1.42.0       DOSE_3.24.2          
+
+loaded via a namespace (and not attached):
+  [1] utf8_1.2.4                  R.utils_2.12.3              tidyselect_1.2.1           
+  [4] RSQLite_2.3.7               BiocParallel_1.32.6         Rtsne_0.17                 
+  [7] scatterpie_0.2.3            munsell_0.5.1               codetools_0.2-20           
+ [10] withr_3.0.1                 colorspace_2.1-1            GOSemSim_2.24.0            
+ [13] knitr_1.48                  rstudioapi_0.16.0           DescTools_0.99.55          
+ [16] ggsignif_0.6.4              MatrixGenerics_1.10.0       GenomeInfoDbData_1.2.9     
+ [19] KMsurv_0.1-5                polyclip_1.10-7             bit64_4.0.5                
+ [22] farver_2.1.2                rhdf5_2.42.1                downloader_0.4             
+ [25] treeio_1.22.0               vctrs_0.6.5                 generics_0.1.3             
+ [28] gson_0.1.0                  xfun_0.46                   timechange_0.3.0           
+ [31] R6_2.5.1                    doParallel_1.0.17           GenomeInfoDb_1.34.9        
+ [34] splitstackshape_1.4.8       clue_0.3-65                 graphlayouts_1.1.1         
+ [37] locfit_1.5-9.10             gridGraphics_0.5-1          bitops_1.0-8               
+ [40] rhdf5filters_1.10.1         microbiome_1.20.0           cachem_1.1.0               
+ [43] fgsea_1.24.0                DelayedArray_0.24.0         scales_1.3.0               
+ [46] ggraph_2.2.1                enrichplot_1.18.4           rootSolve_1.8.2.4          
+ [49] gtable_0.3.5                lmom_3.0                    tidygraph_1.3.1            
+ [52] rlang_1.1.4                 GlobalOptions_0.1.2         splines_4.2.3              
+ [55] lazyeval_0.2.2              rstatix_0.7.2               broom_1.0.6                
+ [58] abind_1.4-5                 backports_1.5.0             qvalue_2.30.0              
+ [61] tools_4.2.3                 ggplotify_0.1.2             biomformat_1.26.0          
+ [64] RColorBrewer_1.1-3          proxy_0.4-27                Rcpp_1.0.13                
+ [67] plyr_1.8.9                  zlibbioc_1.44.0             RCurl_1.98-1.14            
+ [70] GetoptLong_1.0.5            viridis_0.6.5               cowplot_1.1.3              
+ [73] zoo_1.8-12                  SummarizedExperiment_1.28.0 ggrepel_0.9.5              
+ [76] cluster_2.1.6               fs_1.6.4                    survey_4.4-2               
+ [79] magrittr_2.0.3              mvtnorm_1.2-5               matrixStats_1.3.0          
+ [82] patchwork_1.2.0             hms_1.1.3                   xtable_1.8-4               
+ [85] HDO.db_0.99.1               XML_3.99-0.16.1             gridExtra_2.3              
+ [88] shape_1.4.6.1               compiler_4.2.3              shadowtext_0.1.4           
+ [91] crayon_1.5.3                R.oo_1.26.0                 ggfun_0.1.5                
+ [94] mgcv_1.9-1                  tzdb_0.4.0                  geneplotter_1.76.0         
+ [97] aplot_0.2.3                 expm_0.999-9                Exact_3.3                  
+[100] DBI_1.2.3                   tweenr_2.0.3                rappdirs_0.3.3             
+[103] MASS_7.3-60.0.1             boot_1.3-30                 Matrix_1.6-5               
+[106] ade4_1.7-22                 car_3.1-2                   permute_0.9-7              
+[109] cli_3.6.3                   mitools_2.4                 R.methodsS3_1.8.2          
+[112] parallel_4.2.3              igraph_2.0.3                GenomicRanges_1.50.2       
+[115] pkgconfig_2.0.3             km.ci_0.5-6                 foreach_1.5.2              
+[118] ggtree_3.6.2                annotate_1.76.0             multtest_2.54.0            
+[121] XVector_0.38.0              yulab.utils_0.1.5           digest_0.6.36              
+[124] graph_1.76.0                vegan_2.6-6.1               Biostrings_2.66.0          
+[127] cellranger_1.1.0            fastmatch_1.1-4             tidytree_0.4.6             
+[130] survMisc_0.5.6              gld_2.6.6                   graphite_1.44.0            
+[133] rjson_0.2.21                lifecycle_1.0.4             nlme_3.1-165               
+[136] jsonlite_1.8.8              Rhdf5lib_1.20.0             carData_3.0-5              
+[139] viridisLite_0.4.2           fansi_1.0.6                 pillar_1.9.0               
+[142] lattice_0.22-6              KEGGREST_1.38.0             fastmap_1.2.0              
+[145] httr_1.4.7                  GO.db_3.16.0                glue_1.7.0                 
+[148] png_0.1-8                   iterators_1.0.14            bit_4.0.5                  
+[151] ggforce_0.4.2               class_7.3-22                stringi_1.8.4              
+[154] blob_1.2.4                  DESeq2_1.38.3               memoise_2.0.1              
+[157] e1071_1.7-14                ape_5.8 
+```
