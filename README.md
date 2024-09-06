@@ -2,7 +2,9 @@
 
 This is the code used for the main analyses in "Effect of the gut microbiota-derived tryptophan metabolite indole-3-acetic acid in pneumonia" (submitted). For questions: Bob Kullberg at r.f.j.kullberg@amsterdamumc.nl. 
 
-Please refer to the data availability statement in the manuscript for information on how to gain data access. Data protection regulations do not allow public sharing of individual patient data.
+A file containing mock clinical metadata is included to show the type of data, data structure and its definitions ('Mock data and definitions.xlsx'). Data protection regulations do not allow public sharing of individual patient data. Please refer to the data availability statement in the manuscript for information on how to gain data access. 
+
+Analyses can be run in R/Rstudio (for installation, see: https://posit.co/download/rstudio-desktop/). Session information (including version numbers of all packages) are provided below. No earlier/later versions of packages and R/Rstudio were tested. On a normal desktop computer, run time for these analyses is < 10 minutes, although transcriptome analyses might take a few extra minutes. 
 
 
 ## Step 1 - Load libraries
